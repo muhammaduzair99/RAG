@@ -42,3 +42,6 @@ The project is developed and tested on Google Colab, leveraging its GPU capabili
 5. **Performance Optimization**: The pipeline has been optimized to reduce processing time, such as by limiting context length and carefully selecting top-performing models.
 
 
+## Acknowledgments
+
+Special thanks to Hugging Face for model hosting, Google Colab for providing GPU support, and OpenAI's ChatGPT for guidance and assistance throughout the project. This collaboration helped optimize the pipeline and improve answer quality.
