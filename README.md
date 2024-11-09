@@ -41,9 +41,4 @@ The project is developed and tested on Google Colab, leveraging its GPU capabili
 4. **Answer Generation**: Retrieved passages are fed into `google/flan-t5-large`, which generates concise answers based on the query and context.
 5. **Performance Optimization**: The pipeline has been optimized to reduce processing time, such as by limiting context length and carefully selecting top-performing models.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/gullivers-travels-qa.git
-   cd gullivers-travels-qa
