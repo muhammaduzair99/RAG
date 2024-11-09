@@ -17,6 +17,8 @@ Key components of the project:
 
 The dataset for this project is *Gulliver's Travels*, which has been preprocessed to remove extra elements such as the table of contents and footnotes, making it more suitable for question answering. Text is chunked into 500-character segments with an overlap of 50 characters to ensure context is maintained in responses.
 
+Sourced from Project Gutenberg: https://www.gutenberg.org/ebooks/829
+
 ## Platform and Environment
 
 The project is developed and tested on Google Colab, leveraging its GPU capabilities to speed up both retrieval and answer generation. It uses the following tools and libraries:
@@ -44,4 +46,4 @@ The project is developed and tested on Google Colab, leveraging its GPU capabili
 
 ## Acknowledgments
 
-Special thanks to Hugging Face for model hosting, Google Colab for providing GPU support, and OpenAI's ChatGPT for guidance and assistance throughout the project. This collaboration helped optimize the pipeline and improve answer quality.
+Special thanks to Hugging Face for model hosting, Google Colab for providing GPU support, Project Gutenberg for corpus sourcing, and OpenAI's ChatGPT for guidance and assistance throughout the project. This collaboration helped optimize the pipeline and improve answer quality.
